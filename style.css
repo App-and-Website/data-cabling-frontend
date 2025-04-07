@@ -376,6 +376,17 @@ transform: translate(-36%);
 .benefit_list li{
    font-size: 18px;
 }
+.footer__logo{
+   background: #fff;
+   border-radius: 4px;
+   width: fit-content;
+   padding: 5px 25px;
+}
+.logo_box img{
+   max-height:80px;
+   transform: scale(1.2);
+   transform: left;
+}
 
 @media only screen and (max-width: 1200px){
     .main-header .outer-box {
