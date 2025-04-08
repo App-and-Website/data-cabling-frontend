@@ -387,6 +387,12 @@ transform: translate(-36%);
    transform: scale(1.2);
    transform: left;
 }
+.sticky_logobox{
+   padding: 10px 0px 0px 0px!important;
+}
+.sticky_logobox img{
+   max-height:75px;
+}
 
 @media only screen and (max-width: 1200px){
     .main-header .outer-box {
@@ -399,6 +405,18 @@ transform: translate(-36%);
      .main-header .outer-box a {
       margin-top: -20px;
       padding: 8px 15px;
+   }
+   .logo_box img{
+      max-height:80px;
+      transform: scale(1.1);
+      transform: left;
+      padding-left: 10px;
+   }
+   .sticky_logobox img{
+      max-height:70px;
+      transform: scale(1);
+      transform: left;
+      padding-bottom: 10px;
    }
 }
 @media only screen and (max-width: 1028px){
