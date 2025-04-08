@@ -82,7 +82,7 @@
    gap: 25px;
 }
 .crediability_section .cred_container li{
-   background: #fef2e9;
+   background: #ededfd;
    text-align: center;
    font-weight: 600;
    font-size: 18px;
@@ -94,8 +94,11 @@ transform: translate(-36%);
 }
 .crediability_section .cred_container li img{
    max-height: 100px;
+   filter: hue-rotate(-20deg) saturate(70%) brightness(80%);
 }
-
+.facility-block .inner-box .icon-box:hover {
+   background: none;
+}
 
 .service_wrapper{
    display: grid;
@@ -385,7 +388,7 @@ transform: translate(-36%);
 .logo_box img{
    max-height:80px;
    transform: scale(1.2);
-   transform: left;
+   transform-origin: left;
 }
 .sticky_logobox{
    padding: 10px 0px 0px 0px!important;
@@ -393,10 +396,13 @@ transform: translate(-36%);
 .sticky_logobox img{
    max-height:75px;
 }
+.facility-block .inner-box:hover .icon-box{
+ background: transparent;
+}
 
 @media (min-width: 1200px) {
    .header_top .pull-left {
-     margin-left: -15px;
+     margin-left: -8px;
    }
  }
  
