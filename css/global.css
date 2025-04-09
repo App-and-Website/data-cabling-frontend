@@ -551,10 +551,6 @@ p{
 
 /* Typography */
 
-h1{
-	line-height:1.1em;
-	font-size:var(--font-80);
-}
 
 h2{
 	line-height:1.2em;
